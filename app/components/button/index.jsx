@@ -1,9 +1,9 @@
 import styles from './styles.module.css'
 
-export function Button() {
+export function Button({ text }) {
   return (
-    <button>
-      Search
+    <button className={styles.btn}>
+      {text}
     </button>
   )
 }
