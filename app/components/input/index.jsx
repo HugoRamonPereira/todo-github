@@ -2,6 +2,6 @@ import styles from './styles.module.css'
 
 export function Input() {
   return (
-    <input />
+    <input className={styles.input} />
   )
 }

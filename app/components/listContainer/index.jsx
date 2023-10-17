@@ -5,10 +5,10 @@ import styles from './styles.module.css'
 export function ListContainer() {
   return (
     <div className={styles.container}>
-      Main Container
-      <div>
+      Github Posts
+      <div className={styles.inputSession}>
         <Input />
-        <Button />
+        <Button text='Search' />
       </div>
     </div>
   )
