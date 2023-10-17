@@ -1,3 +1,4 @@
+"use client"
 import { useState } from "react";
 import DarkTheme from "@/app/hooks/styles.dark.module.css"
 import LightTheme from "@/app/hooks/styles.light.module.css"
@@ -23,4 +24,4 @@ function useTheme() {
     return {theme: nowTheme.payload, switchTheme}
 }
 
-export default useTheme
+export default useTheme;
